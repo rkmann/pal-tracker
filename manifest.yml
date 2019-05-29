@@ -2,6 +2,8 @@
 applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
-    random-route: true
+    random-route: false
+    routes:
+      - route: pal-tracker.mytracker.cfapps.io
     env:
-      WELCOME_MESSAGE: Hello from PCF, I come from manifest.yml. 
+      WELCOME_MESSAGE: Hello from Reference Environment.
