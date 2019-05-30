@@ -4,6 +4,6 @@ applications:
     path: build/libs/pal-tracker.jar
     random-route: false
     routes:
-      - route: pal-tracker.mytracker.cfapps.io
+      - route: pal-tracker-sunshine.cfapps.io
     env:
       WELCOME_MESSAGE: Hello from Reference Environment.
